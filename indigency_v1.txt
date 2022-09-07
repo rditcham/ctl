@@ -1,0 +1,102 @@
+Title: Indigency "Flowchart"
+Author: Ryan Ditcham
+Before: <link rel="stylesheet" type="text/css" href="https://suffolklitlab.org/howto/qna/style/style.css">
+<div id="icon" style="background-size: 110px 99px;background-image: url('https://suffolklitlab.org/howto/qna/images/maxheadroom.gif');"></div>
+<h2 style="text-align:center;">Indigency "Flowchart"</h2>
+<p><b>This is a <a href="https://www.codingthelaw.org/level/2/#mission_p1">class project</a>. You should not rely on it as a source of legal information!</b></p>
+<p>Answer the following questions to see if you qualify for appointed counsel in [insert state name].</p>
+
+Q(1): How many persons are there in your family/household?
+A: 1
+	Q(1.1): Is your family/household income less than $16,987.50?
+	A: Yes
+		Q(1.1.1):GOTO:2
+	A: No
+		Q(1.1.2): Is your family/household income greater than $29,626.20?
+		A: Yes
+			Q(1.1.2.1):GOTO:3
+		A: No
+			Q(1.1.2.2):GOTO:4
+A: 2
+	Q(1.2): Is your family/household income less than $22,887.50?
+	A: Yes
+		Q(1.2.1):GOTO:2
+	A: No
+		Q(1.2.2): Is your family/household income greater than $39,915.80?
+		A: Yes
+			Q(1.2.2.1):GOTO:3
+		A: No
+			Q(1.2.2.2):GOTO:4
+A: 3
+	Q(1.3): Is your family/household income less than $28,787.50?
+	A: Yes
+		Q(1.3.1):GOTO:2
+	A: No
+		Q(1.3.2): Is your family/household income greater than $50,205.40?
+		A: Yes
+			Q(1.3.2.1):GOTO:3
+		A: No
+			Q(1.3.2.2):GOTO:4
+A: 4
+	Q(1.4): Is your family/household income less than $34,687.50?
+	A: Yes
+		Q(1.4.1):GOTO:2
+	A: No
+		Q(1.4.2): Is your family/household income greater than $60,495?
+		A: Yes
+			Q(1.4.2.1):GOTO:3
+		A: No
+			Q(1.4.2.2):GOTO:4
+A: 5
+	Q(1.5): Is your family/household income less than $40,587.50?
+	A: Yes
+		Q(1.5.1):GOTO:2
+	A: No
+		Q(1.5.2): Is your family/household income greater than $70,784.60?
+		A: Yes
+			Q(1.5.2.1):GOTO:3
+		A: No
+			Q(1.5.2.2):GOTO:4
+A: 6
+	Q(1.6): Is your family/household income less than $46,487.50?
+	A: Yes
+		Q(1.6.1):GOTO:2
+	A: No
+		Q(1.6.2): Is your family/household income greater than $81,074.20?
+		A: Yes
+			Q(1.6.2.1):GOTO:3
+		A: No
+			Q(1.6.2.2):GOTO:4
+A: 7
+	Q(1.7): Is your family/household income less than $51,387.50?
+	A: Yes
+		Q(1.7.1):GOTO:2
+	A: No
+		Q(1.7.2): Is your family/household income greater than $91,363.80?
+		A: Yes
+			Q(1.7.2.1):GOTO:3
+		A: No
+			Q(1.7.2.2):GOTO:4
+A: 8
+	Q(1.8): Is your family/household income less than $58,287.50?
+	A: Yes
+		Q(1.8.1):GOTO:2
+	A: No
+		Q(1.8.2): Is your family/household income greater than $101,653.40?
+		A: Yes
+			Q(1.8.2.1):GOTO:3
+		A: No
+			Q(1.8.2.2):GOTO:4
+A: More than 8
+	Q(1.9): To calculate 125% of the Federal Poverty Guideline for your family/household, add $5,900 to the 8-person value of $58,287.50 for each person in your family/household over 8. Is your family/household income less than this value?
+	A: Yes
+		Q(1.9.1):GOTO:2
+	A: No
+		Q(1.9.2): To calculate 218% of the Federal Poverty Guideline for your family/household, add $10,289.60 to the 8-person value of $101,653.40 for each person in your family/household over 8. Is your family/household income greater than this value?
+		A: Yes
+			Q(1.9.2.1):GOTO:3
+		A: No
+			Q(1.9.2.2):GOTO:4
+Q(2): You are eligible to receive assigned counsel.
+Q(3): You are not eligible to receive assigned counsel.
+Q(4): You may be eligible to receive assigned counsel.
